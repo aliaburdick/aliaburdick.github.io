@@ -82,5 +82,5 @@ var changeDirection = function(direction) {
 
 var snake = [{ top:1, left:0, direction: "down"}, { top:0, left:0, direction: "down"}];
 var apple = { top: 8, left: 10};
-CHUNK.executeNTimesPerSecond(advanceGame, 5);
+CHUNK.executeNTimesPerSecond(advanceGame, 1);
 CHUNK.onArrowKey(changeDirection);
